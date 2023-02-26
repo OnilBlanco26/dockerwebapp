@@ -1,15 +1,13 @@
 pipeline {
-    agent any
-
-    stages {
-        stage('Build and Deploy') {
-            steps {
-
-                // Building and deploying the Docker containers
-                sh '''
+  agent any
+  stages {
+    stage('Build and Deploy') {
+      steps {
+        sh '''
                     docker-compose up -d --build
                 '''
-            }
-        }
+      }
     }
+
+  }
 }
