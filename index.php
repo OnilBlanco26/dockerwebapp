@@ -15,7 +15,7 @@
     <table class="table table-bordered">
         <thead>
             <th>Nombre</th>
-            <th>Pais</th>
+            <th>Pais Prueba</th>
         </thead>
         <tbody>
             <?php
