@@ -24,7 +24,7 @@ services:
       POSTGRES_USER: 2171805
       POSTGRES_DB: dbOnil
     ports:
-      - "5437:5432"
+      - "5432:5432"
     volumes:
       - pgdata:/var/lib/postgresql/data
     networks:
