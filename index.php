@@ -14,7 +14,7 @@
     <h1> Comidas </h1>
     <table class="table table-bordered">
         <thead>
-            <th>Nombre</th>
+            <th>Nombre Prueba</th>
             <th>Pais</th>
         </thead>
         <tbody>
